@@ -16,3 +16,12 @@ print(data_1[0])
 data_2=["apple","orange","pineapple"]
 data_3=pd.Series(data_2,index=["a","b","c"])
 print(data_3["c"])
+
+#key/value object in pandas series
+import pandas as pd
+
+calories = {"day1": 420, "day2": 380, "day3": 390}
+
+myvar = pd.Series(calories)
+
+print(myvar)
