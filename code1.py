@@ -1,5 +1,4 @@
-#create pandas series in python
-import pandas as pd
-a=[1,2,3,4]
-var=pd.Series(a)
-print(var)
+#install pandas
+"""pip install pandas"""
+#Once Pandas is installed, import it in your applications by adding the import keyword
+"""import pandas"""
