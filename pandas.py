@@ -37,3 +37,11 @@ data = {
 myvar = pd.DataFrame(data)
 
 print(myvar)
+
+#selecting particuar data from data set using loc atrribute
+import pandas as pd
+dic={"name":["heman","muthu","saro"],"age":[21,22,23],"area":["madurai","aviyur","chennai"]}
+a=pd.DataFrame(dic)
+print(a)
+print(a.loc[1])
+
