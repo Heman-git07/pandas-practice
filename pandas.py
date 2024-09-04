@@ -38,10 +38,27 @@ myvar = pd.DataFrame(data)
 
 print(myvar)
 
-#selecting particuar data from data set using loc atrribute
+#selecting particuar data from data set using loc atrribute or return a pandas series
 import pandas as pd
 dic={"name":["heman","muthu","saro"],"age":[21,22,23],"area":["madurai","aviyur","chennai"]}
 a=pd.DataFrame(dic)
 print(a)
 print(a.loc[1])
 
+#selecting particular pandas dataframe
+import pandas as pd
+dic={"name":["heman","muthu","saro"],"age":[21,22,23],"area":["madurai","aviyur","chennai"]}
+a=pd.DataFrame(dic)
+print(a)
+print(a.loc[[0,2]])
+
+#create a own label using idex argument in pandas dataframe
+import pandas as pd
+dic={"rollnum":[1,2,3],"age":[21,22,24]}
+v=pd.DataFrame(dic,index=["s1","s2"])
+print(v.loc["s1"])
+
+#load files into dataframe
+import pandas as pd
+df=pd.read_csv("csv file.csv")
+print(df)
