@@ -113,7 +113,7 @@ print(pd.head()) #first 5 rows from data set is printed
 
 import pandas as pd
 df=pd.read_csv("csv file")
-print(pd.tail(10)) #print last 10 rows
+print(pd.tail(10)) #print last 10 row
 
 
 
