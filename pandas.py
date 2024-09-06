@@ -84,3 +84,11 @@ pd.options.display.max_rows=78 #78 is our preference value
 df=pd.read_csv("csvfile.csv")
 
 print(df)
+
+#read json file and to load as dataframe
+import pandas as pd
+
+df=pd.read_json("json file.json")
+
+print(df.to_string)
+
