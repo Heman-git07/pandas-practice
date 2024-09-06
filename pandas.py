@@ -147,4 +147,14 @@ df = pd.read_csv('data.csv')
 
 df.fillna(130, inplace = True)
 
+#Replace NULL values in the "Calories" columns with the number 130:
+
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df["Calories"].fillna(130, inplace = True)
+
+
+
 
