@@ -92,3 +92,14 @@ df=pd.read_json("json file.json")
 
 print(df.to_string)
 
+#we can directly load the json  data in python without json file,because the data inside the json file is like a dictionary in python
+import pandas as pd 
+data={
+"name":{"0":"heman","1":"muthu","2":"saro"},
+"age":{"0":"21","1":"24","2":"23"},
+"roll":{"0":"20bec090","1":"20bec091","2":"20nec093"}
+}
+df=pd.DataFrame(data)
+print(df)
+
+
