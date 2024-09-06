@@ -207,6 +207,12 @@ for x in df.index:
 for x in df.index:
   if df.loc[x, "Duration"] > 120:
     df.drop(x, inplace = True)
+#removing duplicates
+#Returns True for every row that is a duplicate, otherwise False:
+print(df.duplicated())
+
+#Remove all duplicates:
+df.drop_duplicates(inplace = True)
 
 
 
