@@ -69,3 +69,8 @@ import pandas as pd
 df=pd.read_csv("csv file.csv")
 
 print(df.to_string())
+
+#to check maximum row that our systems is returned is achieve through pd.options.display.max_rows
+
+import pandas as pd
+print(pd.options.display.max_rows)
