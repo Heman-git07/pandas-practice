@@ -74,3 +74,13 @@ print(df.to_string())
 
 import pandas as pd
 print(pd.options.display.max_rows)
+
+#we can also increase the number rows to display by using pd.options.display.max_rows
+
+import pandas as pd
+
+pd.options.display.max_rows=78 #78 is our preference value
+
+df=pd.read_csv("csvfile.csv")
+
+print(df)
