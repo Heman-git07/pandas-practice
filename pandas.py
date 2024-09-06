@@ -62,3 +62,10 @@ print(v.loc["s1"])
 import pandas as pd
 df=pd.read_csv("csv file.csv")
 print(df)
+
+#to print the entire data in dataset 
+import pandas as pd 
+
+df=pd.read_csv("csv file.csv")
+
+print(df.to_string())
