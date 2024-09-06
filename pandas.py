@@ -115,5 +115,11 @@ import pandas as pd
 df=pd.read_csv("csv file")
 print(pd.tail(10)) #print last 10 row
 
+#info() function is used to display a information about dataframe
+
+import pandas as pd
+df=pd.read_csv("csv file")
+print(pd.info())
+
 
 
