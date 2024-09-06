@@ -102,4 +102,18 @@ data={
 df=pd.DataFrame(data)
 print(df)
 
+#head() function is used to display a selected rows from top order,we can set value inside that function to display the value of rows
+
+import pandas as pd
+df=pd.read_csv("csv file")
+print(pd.head(10)) #10 rows from top order is printed
+print(pd.head()) #first 5 rows from data set is printed
+
+#tail() function is used to display selected last rows from dataset
+
+import pandas as pd
+df=pd.read_csv("csv file")
+print(pd.tail(10)) #print last 10 rows
+
+
 
