@@ -182,6 +182,17 @@ x = df["Calories"].mode()[0]
 
 df["Calories"].fillna(x, inplace = True)
 
+#data of wrong formate
+#Convert to date:
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df['Date'] = pd.to_datetime(df['Date'])
+
+print(df.to_string())
+
+
 
 
 
