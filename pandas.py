@@ -240,7 +240,8 @@ df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
 
 plt.show()
 
-
+#Histogram
+df["Duration"].plot(kind = 'hist')
 
 
 
