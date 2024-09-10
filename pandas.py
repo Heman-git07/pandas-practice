@@ -214,6 +214,10 @@ print(df.duplicated())
 #Remove all duplicates:
 df.drop_duplicates(inplace = True)
 
+#Show the relationship between the columns:
+df.corr()
+
+
 
 
 
