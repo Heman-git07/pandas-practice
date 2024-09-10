@@ -217,6 +217,30 @@ df.drop_duplicates(inplace = True)
 #Show the relationship between the columns:
 df.corr()
 
+#pandas plotting
+
+#Import pyplot from Matplotlib and visualize our DataFrame:
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('data.csv')
+
+df.plot()
+
+plt.show()
+
+#Scatter Plot
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('data.csv')
+
+df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
+
+plt.show()
+
+
 
 
 
